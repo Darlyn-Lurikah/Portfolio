@@ -57,6 +57,14 @@ nav {
     z-index: 50;
 }
 
+nav .container {
+    display: flex;
+}
 
+.logo {
+    width: 80px;
+    display: flex;
+    align-items: center;
+}
 
 /*End Header*/
