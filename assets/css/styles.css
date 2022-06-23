@@ -1,6 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+/* VARIABLES */
+:root {
+    --background-color: #f6f7fb;
+    --dark-one: #333;
+}
+
+
+/*Global styles*/
 *, *::before, *::after {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
+body,
+button,
+input,
+textarea {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+} 
+
+.container {
+    max-width: 92rem;
+    position: relative;
+    z-index: 5;
+    margin: 0 auto;
+    padding: 0 4rem;
+    background-color: aqua;
+}
+/*End Global styles*/
+
+
+/*Header*/
+header {
+    width: 100%;
+    background-color: rgb(255, 206, 255);
+    overflow: hidden;
+}
+
+nav {
+    width: 100%;
+    position: relative;
+    z-index: 50;
+}
+
+
+
+/*End Header*/
