@@ -41,16 +41,26 @@ img {
     padding: 0 4rem;
     background-color: var(--background-color);
 }
+
+.grid-2 {
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+}
 /*End Global styles*/
 
 
-/*Header*/
+/*HEADER*/
 header {
     width: 100%;
     background-color: var(--background-color);
     overflow: hidden;
 }
 
+/*Navbar*/
 nav {
     width: 100%;
     position: relative;
@@ -69,6 +79,7 @@ nav .container {
     align-items: center;
 }
 
+/*Navbar links*/
 .links ul {
     display: flex;
 }
@@ -88,4 +99,18 @@ nav .container {
     color: aqua;
 }
 
-/*End Header*/
+/*Intro grid*/
+.header-content .container.grid-2 {
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 6rem);
+    padding-bottom: 2.5rem;
+    text-align: left;
+}
+
+
+/*END HEADER*/
