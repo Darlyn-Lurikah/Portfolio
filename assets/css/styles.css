@@ -39,7 +39,7 @@ img {
     z-index: 5;
     margin: 0 auto;
     padding: 0 4rem;
-    background-color: aqua;
+    background-color: var(--background-color);
 }
 /*End Global styles*/
 
@@ -47,7 +47,7 @@ img {
 /*Header*/
 header {
     width: 100%;
-    background-color: rgb(255, 206, 255);
+    background-color: var(--background-color);
     overflow: hidden;
 }
 
@@ -59,12 +59,33 @@ nav {
 
 nav .container {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
     width: 80px;
     display: flex;
     align-items: center;
+}
+
+.links ul {
+    display: flex;
+}
+
+.links a {
+    display: inline-block;
+    padding: 0.9rem 1.2rem;
+    color: var(--dark-one);
+    font-size: 1.05rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 1;
+    transition: 0.3s;
+}
+
+.links a:hover {
+    color: aqua;
 }
 
 /*End Header*/
