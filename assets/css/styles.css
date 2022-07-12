@@ -15,6 +15,25 @@ section {
     font-size: 40px;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 600px;
+    font-size: 30px;
+    justify-content: space-around;
+    
+}
+
+li {
+
+    text-decoration: none;
+}
+
 footer {
     height: 500px;
     background-color: black;
