@@ -24,3 +24,14 @@ html,body {
     padding-left: 100px;
     padding-right: 100px;
 }
+
+.projects {
+    height: 100vh;
+    background-color: pink;
+}
+
+
+.about-text {
+    margin-top: 10%;
+    margin-bottom: 50px;
+}
