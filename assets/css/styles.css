@@ -13,3 +13,30 @@ html,body {
     height: 100vh;
     background-color: royalblue;
 }
+
+
+.about-me {
+    height: 100vh;
+    background-color: yellowgreen;
+}
+
+.about-text {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.projects {
+    background-color: pink;
+}
+
+
+.about-text {
+    margin-top: 10%;
+    margin-bottom: 50px;
+}
+
+.project-card {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 60px;
+}
