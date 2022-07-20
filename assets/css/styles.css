@@ -8,18 +8,21 @@ html,body {
     overflow-x:hidden;
 }
 
+section .intro-img {
+    
+}
 
 /* ------ NAVBAR */
 
 .navbar {
-    background-color: royalblue !important;
+    background-color: rgb(124, 148, 221) !important;
     font-size: 20px;
 }
 
+/* Spacing between nav options */
 .nav-item {
     margin: 0 10px 0 10px;
 }
-
 
 .navbar .navbar-nav .nav-link {
     font-size: 20px;
@@ -38,7 +41,11 @@ html,body {
 
 .home-intro {
     height: 100vh;
-    background-color: royalblue;
+    background-image: url("/assets/images/portfolio_background_gradient_2.png");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
